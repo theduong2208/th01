@@ -1,0 +1,39 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center; /* Đặt các phần tử trong li thẳng hàng */
+  justify-content: space-between; /* Khoảng cách giữa nội dung và các nút */
+}
+
+li div {
+  display: flex;
+  align-items: center; /* Đảm bảo checkbox và text task thẳng hàng */
+}
+
+li button {
+  margin-left: 10px;
+}
